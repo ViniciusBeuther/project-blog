@@ -57,7 +57,7 @@ header{
 
 #barra-pesquisa
 {
-    max-width: 56.25rem;
+    max-width: 924px;
     width: 90%;
     height: 4.0625rem;
     display: flex;
@@ -73,7 +73,7 @@ header{
 }
 
 #barra-pesquisa > input{
-    max-width: 56.25rem;  
+    max-width: 924px;  
     height: 4.0625rem;
     width: 90%;
     background: rgba(255, 255, 255, 0.2);
@@ -103,7 +103,7 @@ header{
     padding: 0px;
     display: block;
     width: 90%;
-    max-width: 56.25rem;
+    max-width: 900px;
     margin: auto;   
     height: auto;
     margin-top: 3.125rem;
