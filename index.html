@@ -65,7 +65,21 @@
             <p class="conteudo-noticias">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis. Praesent et auctor justo. Vestibulum nisl orci, lacinia venenatis leo sit amet, pulvinar tincidunt risus. Phasellus nisl dui, cursus a lectus et, interdum ullamcorper libero.</p>
         </div>
 
-        
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <script>
+            const sr = ScrollReveal({
+                origin: 'top',
+                distance: '50px',
+                duration: 2000,
+                reset: true
+            });
+    
+            ScrollReveal().reveal('.container-noticias', { delay: 200 });
+            ScrollReveal().reveal('.data-noticias', { delay: 400 });
+            ScrollReveal().reveal('.titulo-noticias', { delay: 500 });
+            ScrollReveal().reveal('.conteudo-noticias', { delay: 600 });
+    </script>
     </main>
 </body>
 </html>
